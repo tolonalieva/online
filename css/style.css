@@ -1,3 +1,72 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  background-color: #fff;
+  color: #4f4f4f;
+  line-height: 1.3rem;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.nav {
+  padding: 28px 0;
+  font-weight: 600;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+}
+
+.nav_logo {
+  width: 120px;
+}
+
+.nav_btn {
+  padding: 12px 18px;
+  border-radius: 8px;
+  background-color: #78258D;
+  color: #fff;
+}
+
+.line {
+  height: 1px;
+  background-color: #EFEFFF;
+}
 
 /*# sourceMappingURL=style.css.map */
